@@ -1,0 +1,57 @@
+.conname {
+    background-color: #282c34;
+    color: white;
+  }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.box {
+    background-color: #FF9494;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.navhov:hover{
+    background-color: black;
+}
+
+.box-last{
+    justify-content: center;
+    background-color: #FF9494;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.navhd{
+    color: #867070;
+}
+
+.navhd:hover{
+    color: black;
+}
+
+.adminpara{
+    text-align: center;
+    color: aqua;
+    font-weight: 200;
+}
+
+
+

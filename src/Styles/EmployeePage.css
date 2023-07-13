@@ -1,0 +1,46 @@
+.conname {
+    background-color: #282c34;
+    color: white;
+  }
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.bxct {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    width: 100vh;
+    height: 50vh;
+}
+
+.bbxx {
+    background-color: #FF9494;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.navhdst{
+    color: #867070;
+    padding-top: 30px;
+}
+
+.navhdnd{
+    color: #867070;
+    padding-top: 40px;
+}
+
+.navhdst:hover{
+    color: black;
+}
+
+.navhdnd:hover{
+    color: black;
+}
